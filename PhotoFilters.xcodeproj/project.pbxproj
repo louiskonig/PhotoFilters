@@ -13,6 +13,8 @@
 		88AB6E791A1979A500F966AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AB6E781A1979A500F966AA /* Images.xcassets */; };
 		88AB6E7C1A1979A500F966AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AB6E7A1A1979A500F966AA /* LaunchScreen.xib */; };
 		88AB6E881A1979A500F966AA /* PhotoFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB6E871A1979A500F966AA /* PhotoFiltersTests.swift */; };
+		88AB6E921A197A7900F966AA /* sappy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88AB6E911A197A7900F966AA /* sappy.jpg */; };
+		88AB6E941A19812700F966AA /* josh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88AB6E931A19812700F966AA /* josh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		88AB6E811A1979A500F966AA /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AB6E861A1979A500F966AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88AB6E871A1979A500F966AA /* PhotoFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersTests.swift; sourceTree = "<group>"; };
+		88AB6E911A197A7900F966AA /* sappy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sappy.jpg; path = "../../schindlers list/sappy.jpg"; sourceTree = "<group>"; };
+		88AB6E931A19812700F966AA /* josh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = josh.jpg; path = "../../schindlers list/josh.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		88AB6E6E1A1979A500F966AA /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
+				88AB6E931A19812700F966AA /* josh.jpg */,
+				88AB6E911A197A7900F966AA /* sappy.jpg */,
 				88AB6E711A1979A500F966AA /* AppDelegate.swift */,
 				88AB6E731A1979A500F966AA /* ViewController.swift */,
 				88AB6E751A1979A500F966AA /* Main.storyboard */,
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AB6E771A1979A500F966AA /* Main.storyboard in Resources */,
+				88AB6E941A19812700F966AA /* josh.jpg in Resources */,
+				88AB6E921A197A7900F966AA /* sappy.jpg in Resources */,
 				88AB6E7C1A1979A500F966AA /* LaunchScreen.xib in Resources */,
 				88AB6E791A1979A500F966AA /* Images.xcassets in Resources */,
 			);
